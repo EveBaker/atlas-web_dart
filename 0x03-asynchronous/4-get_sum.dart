@@ -20,7 +20,7 @@ Future<double> calculateTotal() async {
             double price = double.parse(priceData);
             totalPrice += price;
         }
-        return totalPrice.toInt(); 
+        return totalPrice;
         } catch (error) {
             return -1;
     }
